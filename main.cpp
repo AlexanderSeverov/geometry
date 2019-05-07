@@ -3,6 +3,7 @@
 #include <string>
 #include <unistd.h>
 #include <cstdio>
+#include "guard"
 
 int main()
 {
