@@ -6,21 +6,21 @@
 
 int main()
 {
-    // Create the main window
+  /*  // Create the main window
     sf::RenderWindow app(sf::VideoMode(800, 600), "SFML window");
 
     // Load a sprite to display
     sf::Texture texture;
     if (!texture.loadFromFile("cb.bmp"))
         return EXIT_FAILURE;
-    sf::Sprite sprite(texture);
+    sf::Sprite sprite(texture);*/
     int mb=0,rad=0,p1os=0,p2os=0,var=0;
-    bool ch=false;
+    //bool ch=false;
 
     std::cout<< "chose the varient";
     std::cin>> mb;
 
-    if(mb=1)
+    if(mb==1)
     {
     std::cout<< "radius";
     std::cin>> rad;
@@ -33,7 +33,7 @@ int main()
 
 	if (var==1)
 	{// Start the game loop
-    while (ch==false)
+   /* while (ch==false)
     {
         // Process events
         sf::Event event;
@@ -61,8 +61,8 @@ int main()
 
         app.draw(shape);
 
-        app.display();
-        ch=true;
+        app.display();*/
+        //ch=true;
 
     }
     int plos=3.14*(rad*rad),perim=2*3.14*rad;
@@ -71,5 +71,5 @@ int main()
     std::cout<< perim;
 }
 
-    return EXIT_SUCCESS;
-}
+  //  return EXIT_SUCCESS;
+

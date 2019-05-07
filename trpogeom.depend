@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1552305880 source:/home/alex/projects/geometr/trpogeom/main.cpp
+	<SFML/Graphics.hpp>
+	<iostream>
+	<string>
+	<unistd.h>
+	<cstdio>
+
