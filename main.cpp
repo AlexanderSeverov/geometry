@@ -3,7 +3,7 @@
 #include <string>
 #include <unistd.h>
 #include <cstdio>
-#include "src/ctest.h"
+
 int test()
 {
     bool check=false;
@@ -87,17 +87,17 @@ return check;
 }
 int main()
 {
-    // Create the main window
+   /* // Create the main window
     sf::RenderWindow app(sf::VideoMode(800, 600), "SFML window");
 
     // Load a sprite to display
     sf::Texture texture;
     if (!texture.loadFromFile("src/cb.bmp"))
         return EXIT_FAILURE;
-    sf::Sprite sprite(texture);
+    sf::Sprite sprite(texture);*/
     int mb=0,rad=0,p1os=0,p2os=0,var=0;
     int rad1=0,p1os1=0,p2os1=0;
-    bool ch=false;
+  //  bool ch=false;
 
 
     //test1
@@ -107,6 +107,13 @@ int main()
     std::cout<< "\n";
     std::cout<< "test complete";
     std::cout<< "\n";
+    }
+    else
+    {
+    std::cout<< "\n";
+    std::cout<< "test falied";
+    std::cout<< "\n";
+    exit(0);
     }
 
     std::cout<< "chose the varient";
@@ -138,9 +145,9 @@ int main()
 	if (var==1)
 	{// Start the game loop
 	int b=0;
-    app.clear();
+  //  app.clear();
 
-        // Draw the sprite
+   /*     // Draw the sprite
        app.draw(sprite);
 
         // Update the window
@@ -167,7 +174,7 @@ int main()
         app.draw(shape1);
 
         app.display();
-    /*while (1!=0)
+ //   while (1!=0)
     {
 
         // Process events
