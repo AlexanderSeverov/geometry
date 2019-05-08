@@ -3,8 +3,10 @@
 #include <string>
 #include <unistd.h>
 #include <cstdio>
+#include "src/test1.h"
 
-int test()
+
+/*int test()
 {
     bool check=false;
 
@@ -85,6 +87,7 @@ int test()
 
 return check;
 }
+*/
 int main()
 {
    /* // Create the main window
