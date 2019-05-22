@@ -25,16 +25,16 @@ int main()
 
     if(test()==true)
     {
-    std::cout<< "\n";
-    std::cout<< "test complete";
-    std::cout<< "\n";
+  	  std::cout<< "\n";
+  	  std::cout<< "test complete";
+   	  std::cout<< "\n";
     }
     else
     {
-    std::cout<< "\n";
-    std::cout<< "test falied";
-    std::cout<< "\n";
-    exit(0);
+   	  std::cout<< "\n";
+  	  std::cout<< "test falied";
+  	  std::cout<< "\n";
+	  return(0);
     }
 
     std::cout<< "chose the varient";
@@ -213,7 +213,7 @@ int main()
     std::cout<<"peresikaitsi";
     }
     std::cin>>b;
-    system("PAUSE");
+    //system("PAUSE");
 }
 
 }
